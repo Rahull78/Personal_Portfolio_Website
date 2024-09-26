@@ -64,36 +64,98 @@ nav .nav-link.active {
   padding: 0 15px;
 }
 
-/* Row with responsive behavior */
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 30px;
-} */
-
-/* Columns setup for responsive grid */
-/* .col {
-  flex: 0 0 100%;
-  max-width: 100%;
-} */
-/* 
-@media (min-width: 768px) {
-  .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .col-lg-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-} */
-
 /* suraj css */
 .heroImg {
   height: auto;
   width: 100%;
+}
+
+/* Card styling */
+.expertise-card {
+  background-color: #f5faff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.expertise-card:hover {
+  box-shadow: 0 10px 20px rgba(12, 12, 12, 0.57);
+  transform: translateY(-10px);
+  border-color: #6a5ae0;
+}
+
+/* Card Image */
+.expertise-card img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+/* Card Title */
+.expertise-card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+/* Card Description */
+.expertise-card p {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* Section Header Styling */
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.about-section img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  z-index: 1;
+}
+
+.about-text {
+  margin-left: -50px;
+  z-index: 2;
+  background-color: white;
+  padding: 20px;
+}
+
+.about-background {
+  background-color: #e6e1ff;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  z-index: 0;
+  margin-right: -300px;
+}
+.about-text {
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+.about-background {
+  margin-right: 0;
+  margin-bottom: -200px;
 }
