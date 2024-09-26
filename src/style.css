@@ -57,13 +57,6 @@ nav .nav-link.active {
   border-radius: 15px;
 }
 
-/* Container similar to Bootstrap container */
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 /* suraj css */
 .heroImg {
   height: auto;
