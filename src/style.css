@@ -4,3 +4,96 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav {
+  padding: 20px 0;
+}
+
+nav .nav-link {
+  color: #6c757d;
+  font-weight: 500;
+}
+nav .nav-item :hover {
+  color: #6a5ae0;
+  font-weight: 500;
+}
+
+nav .nav-link.active {
+  color: #6a5ae0;
+}
+.btn-primary-custom {
+  background-color: transparent;
+  border: 1px solid #6a5ae0;
+  color: #6a5ae0;
+  font-weight: 600;
+}
+
+.btn-primary-custom:hover {
+  background-color: #6a5ae0;
+  color: #fff;
+}
+
+.hero-section {
+  padding: 60px 0;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #6a5ae0;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+/* Container similar to Bootstrap container */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Row with responsive behavior */
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+} */
+
+/* Columns setup for responsive grid */
+/* .col {
+  flex: 0 0 100%;
+  max-width: 100%;
+} */
+/* 
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+} */
+
+/* suraj css */
+.heroImg {
+  height: auto;
+  width: 100%;
+}

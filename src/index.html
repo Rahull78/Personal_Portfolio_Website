@@ -26,8 +26,8 @@
 
   <body>
     <!-- Header for Navbar  -->
-    <header>
-      <nav class="navbar container navbar-expand-lg fixed-top">
+    <header class="bg-dark">
+      <nav class="navbar container navbar-expand-md fixed-top">
         <!-- Navbar -->
 
         <div class="container-fluid">
@@ -47,11 +47,16 @@
                 Logoipsum
               </h5>
               <button
+                class="navbar-toggler"
                 type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
@@ -77,23 +82,12 @@
           </div>
           <div>
             <a
+              class="btn btn-primary-custom"
               href="#"
-              class="btn btn-outline-primary"
               target="_blank"
-              role="button"
               aria-pressed="false"
               >Contact Me</a
             >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
           </div>
         </div>
 
@@ -103,27 +97,60 @@
     <!-- Header for Navbar Ends here -->
 
     <!-- Section for Hero Section -->
-    <section class="container">
+    <section class="hero-section">
       <!-- Outer/Main Div for Hero Section -->
-      <div class="">
-        <!-- 1st div for left side Description -->
-        <div>
-          <p></p>
-          <h1></h1>
-          <p></p>
-          <button></button>
+      <div class="container">
+        <div class="row">
+          <!-- 1st div for left side Description -->
+          <div class="col-md hero-content">
+            <h1>
+              I create <span class="">product design</span> <br />
+              and brand experience
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <a href="#" class="btn btn-primary mt-3">Get In Touch</a>
+          </div>
+          <!-- 2nd Div for Right side Image -->
+          <div class="col-md text-center hero-image">
+            <img
+              class="heroImg"
+              src="../res/HeroSection_Image.png"
+              alt="hero-image"
+            />
+          </div>
+          <!-- 2nd Div for Right side Image -->
         </div>
         <!-- 1st div for left side Description Ends here -->
-
-        <!-- 2nd Div for Right side Image -->
-        <div>
-          <img src="" alt="" />
-        </div>
-        <!-- 2nd Div for Right side Image -->
       </div>
       <!-- Outer/Main Div for Hero Section Ends here-->
     </section>
     <!-- Section for Hero Section Ends here-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>
+            I create <span class="">product design</span> <br />
+            and brand experience
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+          <a href="#" class="btn btn-primary mt-3">Get In Touch</a>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="heroImg"
+            src="../res/HeroSection_Image.png"
+            alt="hero-image"
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- Section for Skills -->
     <section class="container">
@@ -446,5 +473,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
