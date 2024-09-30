@@ -1,0 +1,58 @@
+:root {
+  --bs-primary: #5e3bee; /* Change the primary color to purple */
+}
+
+.text-primary {
+  color: #5e3bee !important; /* Set the custom primary text color */
+}
+
+.btn-outline-primary {
+  color: #5e3bee; /* Set the text color */
+  border-color: #5e3bee; /* Set the border color */
+}
+
+.btn-outline-primary:hover {
+  background-color: #5e3bee; /* Optional: Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.btn-primary {
+  background-color: #5e3bee;
+  color: white;
+}
+
+.nav-link {
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: var(--bs-primary) !important; /* Bootstrap's primary color */
+}
+
+/* Change border color for input fields and textarea */
+.form-control,
+.form-select {
+  border: 1px solid #5e3bee; /* Custom border color */
+}
+
+/* Change border color for checkbox */
+.form-check-input {
+  border: 1px solid #5e3bee; /* Custom border color for checkbox */
+}
+
+/* Change border color on focus */
+.form-control:focus,
+.form-select:focus {
+  border-color: #5e3bee; /* Keep custom color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(94, 59, 238, 0.25); /* Optional shadow effect on focus */
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
