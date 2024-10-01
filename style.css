@@ -56,3 +56,59 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 1); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  background-color: #F5FCFF;
+}
+
+.social-links{
+  display: flex;
+  /* justify-content: end; */
+}
+
+.footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width : 991px) {
+  .social-links{
+    justify-content: end;
+  }
+
+  .abt-me-img{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width : 991px) {
+  .footer-links{
+    align-items: center;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  
+  .footer-links a{
+    margin-bottom: 10px;
+  }
+
+  .social-links{
+    justify-content: center;
+  }
+
+  .abt-me-img{
+    width: 100%;
+  }
+}
+
